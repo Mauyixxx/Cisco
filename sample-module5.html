@@ -1,36 +1,29 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Harbor Light Community Center</title>
-
     <style>
         body {
             font-family: Arial, sans-serif;
         }
-
         .center-and-space-content {
-            text-align: center;
-            padding: 10px;
+            text-align: center; /* Centers inline or inline-block content within the div */
+            padding: 10px; /* Adds padding around the content inside the div */
         }
     </style>
 </head>
-
 <body>
-
-    <!-- Header -->
     <header>
         <div class="center-and-space-content">
-            <img src="https://edube.org/uploads/media/default/0001/04/logo.jpg"
-                 alt="Harbor Light Community Center Logo">
+            <img src="https://edube.org/uploads/media/default/0001/04/logo.jpg" alt="Harbor Light Community Center Logo">
             <p>Welcome to Harbor Light Community Center</p>
         </div>
     </header>
-
-    <!-- Navigation -->
+    
     <nav role="navigation">
         <ul>
-            <li><a href="#about">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#events">Events</a></li>
@@ -38,67 +31,36 @@
         </ul>
     </nav>
 
-    <!-- Decorative Banner -->
+    <!-- Decorative banner marked to be ignored by screen readers -->
     <div class="banner">
-        <img src="https://edube.org/uploads/media/default/0001/04/decorative-banner.jpg"
-             alt=""
-             aria-hidden="true">
+        <img src="https://edube.org/uploads/media/default/0001/04/decorative-banner.jpg" alt="" aria-hidden="true">
     </div>
 
-    <!-- Main Content -->
     <main>
-
-        <!-- About Us -->
         <section id="about">
             <h2>About Us</h2>
-            <p>
-                The Harbor Light Community Center has been at the heart of our community for over
-                30 years, offering a wide range of services and programs designed to support and
-                enrich the lives of our residents.
-            </p>
-
-            <p>
-                <img src="https://edube.org/uploads/media/default/0001/04/community-center.jpg"
-                     alt="Harbor Light Community Center People">
-            </p>
+            <p>The Harbor Light Community Center has been at the heart of our community for over 30 years, offering a wide range of services and programs designed to support and enrich the lives of our residents.</p>
+            <p><img src="https://edube.org/uploads/media/default/0001/04/community-center.jpg" alt="Community Center People"></p>
         </section>
 
-        <!-- Our Services -->
         <section id="services">
             <h2>Our Services</h2>
-            <p>
-                From educational workshops and sports leagues to wellness programs and art classes,
-                our services are tailored to meet the diverse needs of our community members.
-            </p>
+            <p>From educational workshops and sports leagues to wellness programs and art classes, our services are tailored to meet the diverse needs of our community members.</p>
         </section>
 
-        <!-- Join Our Events -->
         <section id="events" itemscope itemtype="http://schema.org/Event">
             <h2>Join Our Events</h2>
-
-            <p itemprop="description">
-                <strong>Annual Summer Festival</strong><br>
-                Starts:
-                <time itemprop="startDate" datetime="2050-07-20">
-                    July 20, 2050
-                </time>
+            <p itemprop="description">Our community center is a hub of activity, hosting events throughout the year. Don't miss our annual summer festival for fun, food, and festivities for all ages.</p>
+            <p><strong>Annual Summer Festival:</strong> <br>
+               Starts: <time itemprop="startDate" datetime="2050-07-20">July 20, 2050</time>
             </p>
         </section>
-
     </main>
 
-    <!-- Footer -->
-    <footer id="contact">
-        <h2>Contact Us</h2>
-
-        <p>
-            Have questions or want to get involved?
-            Email us at
-            <a href="mailto:info@harborlight.com">info@harborlight.com</a>
-        </p>
-
-        <p>© 2050 Harbor Light Community Center</p>
+    <footer>
+        <h2 id="contact">Contact Us</h2>
+        <p>Have questions or want to get involved? Email us at <a href="mailto:info@harborlight.com">info@harborlight.com</a>.</p>
+        <p>&copy; 2050 Harbor Light Community Center</p>
     </footer>
-
 </body>
 </html>
